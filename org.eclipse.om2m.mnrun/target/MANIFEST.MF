@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.om2m.commons;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy
+Bundle-Version: 1.0.0.20160803-0950
+Bundle-Name: Mnrun
+Bundle-Activator: org.eclipse.om2m.mnrun.Activator
+Bundle-ManifestVersion: 2
+Import-Package: org.apache.commons.logging,org.eclipse.om2m.core.servi
+ ce,org.eclipse.om2m.interworking.service,org.osgi.framework;version="
+ 1.3.0",org.osgi.util.tracker;version="1.5.1"
+Bundle-SymbolicName: org.eclipse.om2m.mnrun
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+
